@@ -1,0 +1,7 @@
+n=int(input())
+a=list(map(int,input().split()))
+b=list()
+b.append(a[-1])
+a.pop()
+b.extend(a)
+print(*b,sep=' ')
